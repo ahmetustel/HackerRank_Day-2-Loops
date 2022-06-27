@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const arr1 = ["a", "e", "i", "o", "u"];
+      const arr2 = [
+        "b",
+        "c",
+        "d",
+        "f",
+        "g",
+        "h",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "p",
+        "r",
+        "s",
+        "t",
+        "v",
+        "y",
+        "z",
+        "q",
+        "w",
+        "x",
+      ];
+      let jsct = "javascriptloops";
+      const inpt = jsct.split("");
+      for (const a in inpt) {
+        for (const b in arr1) {
+          if (inpt[a] == arr1[b]) {
+            console.log(inpt[a]);
+          }
+        }
+      }
+      for (const c in inpt) {
+        for (const d in arr2) {
+          if (inpt[c] == arr2[d]) {
+            console.log(inpt[c]);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
